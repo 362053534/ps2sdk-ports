@@ -9,7 +9,7 @@ COPY . /src
 RUN apk add build-base git bash cmake pkgconfig texinfo autoconf automake libtool gettext-dev flex
 RUN cd /src && make -j $(getconf _NPROCESSORS_ONLN)
 
-FROM alpine:latest  
+FROM alpine:3.20
 
 ENV PS2DEV /usr/local/ps2dev
 ENV PS2SDK $PS2DEV/ps2sdk
