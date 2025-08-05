@@ -113,11 +113,11 @@ ps2_drivers:
 	$(MAKE) -C build/$@ install
 
 ps2stuff:
-	./fetch.sh master https://github.com/362053534/ps2stuff
+	./fetch.sh master https://github.com/ps2dev/ps2stuff
 	$(MAKE) -C build/$@ install
 
 ps2gl: ps2stuff
-	./fetch.sh master https://github.com/362053534/ps2gl
+	./fetch.sh master https://github.com/ps2dev/ps2gl
 	$(MAKE) -C build/$@ install
 	$(MAKE) -C build/$@/glut install
 
