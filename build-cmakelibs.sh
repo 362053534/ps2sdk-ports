@@ -68,23 +68,23 @@ function build_irx {
 ## Clone repos
 ##
 # Try to solve windows linking issues
-$FETCH 5a82f71ed1dfc0bec044d9702463dbdf84ea3b71 https://github.com/madler/zlib &
+$FETCH 5a82f71ed1dfc0bec044d9702463dbdf84ea3b71 https://github.com/madler/zlib.git &
 $FETCH v5.4.0 https://github.com/xz-mirror/xz.git &
-$FETCH c99038d1bb46d9621f0c9e3ac6f0004a109eb67a https://github.com/lz4/lz4.git &
-$FETCH v1.9.2 https://github.com/nih-at/libzip.git &
+$FETCH v1.10.0 https://github.com/lz4/lz4.git &
+$FETCH v1.11.3 https://github.com/nih-at/libzip.git &
 $FETCH 2.18.0 https://github.com/ImageOptim/libimagequant.git &
-$FETCH v1.6.43 https://github.com/glennrp/libpng &
-$FETCH VER-2-10-4 https://github.com/freetype/freetype &
-$FETCH v1.14.0 https://github.com/google/googletest &
-$FETCH 0.2.5 https://github.com/yaml/libyaml &
-$FETCH 3.0.3 https://github.com/libjpeg-turbo/libjpeg-turbo &
+$FETCH v1.6.47 https://github.com/pnggroup/libpng.git &
+$FETCH VER-2-13-3 https://github.com/freetype/freetype.git &
+$FETCH v1.16.0 https://github.com/google/googletest.git &
+$FETCH 0.2.5 https://github.com/yaml/libyaml.git &
+$FETCH 3.1.0 https://github.com/libjpeg-turbo/libjpeg-turbo.git &
 $FETCH v1.3.5 https://github.com/xiph/ogg.git &
 $FETCH v1.3.7 https://github.com/xiph/vorbis.git &
 $FETCH v5.7.0-stable https://github.com/wolfSSL/wolfssl.git &
-$FETCH curl-8_7_1 https://github.com/curl/curl.git &
-$FETCH 1.9.5 https://github.com/open-source-parsers/jsoncpp.git &
-$FETCH libxmp-4.6.0 https://github.com/libxmp/libxmp.git &
-$FETCH v1.4 https://github.com/xiph/opus.git &
+$FETCH curl-8_13_0 https://github.com/curl/curl.git &
+$FETCH 1.9.6 https://github.com/open-source-parsers/jsoncpp.git &
+$FETCH libxmp-4.6.2 https://github.com/libxmp/libxmp.git &
+$FETCH v1.5.2 https://github.com/xiph/opus.git &
 # We need to clone the whole repo and point to the specific hash for now,
 # till they release a new version with cmake compatibility
 # we need to clone whole repo because it uses `git describe --tags` for version info
@@ -92,27 +92,23 @@ $FETCH cf218fb54929a1f54e30e2cb208a22d08b08c889 https://github.com/xiph/opusfile
 # We need to clone the whole repo and point to the specific hash for now,
 # till they release a new version with cmake compatibility
 $FETCH d1b97ed0020bc620a059d3675d1854b40bd2608d https://github.com/Konstanty/libmodplug.git &
-# We need to clone the whole repo and point to the specific hash for now,
-# till they release a new version with cmake compatibility
-$FETCH 096d0711ca3e294564a5c6ec18f5bbc3a2aac016 https://github.com/sezero/mikmod.git &
+$FETCH libmikmod-3.3.13 https://github.com/sezero/mikmod.git &
 # We need to clone a fork, this is a PR opened for ading cmake support
 # https://github.com/xiph/theora/pull/14
 $FETCH feature/cmake https://github.com/mcmtroffaes/theora.git &
 
 # gsKit requires libtiff
-$FETCH v4.6.0 https://gitlab.com/libtiff/libtiff.git &
+$FETCH v4.7.0 https://gitlab.com/libtiff/libtiff.git &
 
 # SDL requires to have gsKit
-$FETCH v1.3.8 https://github.com/ps2dev/gsKit &
+$FETCH v1.4.0 https://github.com/ps2dev/gsKit.git &
 
-# We need to clone the whole repo and point to the specific hash for now,
-# till a new version is released after this commit
-$FETCH 10c14e78b650e626293aa18155efec54cdee7098 https://github.com/libsdl-org/SDL.git &
+$FETCH release-2.32.10 https://github.com/libsdl-org/SDL.git &
 $FETCH release-2.6.3 https://github.com/libsdl-org/SDL_mixer.git &
-$FETCH release-2.6.3 https://github.com/libsdl-org/SDL_image.git &
-$FETCH release-2.20.2 https://github.com/libsdl-org/SDL_ttf.git &
+$FETCH release-2.8.4 https://github.com/libsdl-org/SDL_image.git &
+$FETCH release-2.24.0 https://github.com/libsdl-org/SDL_ttf.git &
 
-$FETCH libsmb2-6.1 https://github.com/sahlberg/libsmb2.git &
+$FETCH libsmb2-6.2 https://github.com/sahlberg/libsmb2.git &
 
 # We need to clone the whole repo and point to the specific hash for now,
 # till a new version is released after this commit
