@@ -97,7 +97,7 @@ $FETCH d1b97ed0020bc620a059d3675d1854b40bd2608d https://github.com/Konstanty/lib
 $FETCH 096d0711ca3e294564a5c6ec18f5bbc3a2aac016 https://github.com/sezero/mikmod.git &
 # We need to clone a fork, this is a PR opened for ading cmake support
 # https://github.com/xiph/theora/pull/14
-$FETCH feature/cmake https://github.com/362053534/theora.git &
+$FETCH feature/cmake https://github.com/mcmtroffaes/theora.git &
 
 # gsKit requires libtiff
 $FETCH v4.6.0 https://gitlab.com/libtiff/libtiff.git &
