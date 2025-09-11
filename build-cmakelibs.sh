@@ -101,7 +101,7 @@ $FETCH feature/cmake https://github.com/mcmtroffaes/theora.git &
 $FETCH v4.7.0 https://gitlab.com/libtiff/libtiff.git &
 
 # SDL requires to have gsKit
-$FETCH v1.3.5fix https://github.com/362053534/gsKit.git &
+$FETCH v1.3.5-fix https://github.com/362053534/gsKit.git &
 
 $FETCH release-2.32.10 https://github.com/libsdl-org/SDL.git &
 $FETCH release-2.6.3 https://github.com/libsdl-org/SDL_mixer.git &
