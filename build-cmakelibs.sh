@@ -168,7 +168,8 @@ CFLAGS="-Wno-implicit-function-declaration" build_ee theora -DHAVE_STRING_H=ON
 CFLAGS="-Dlfind=bsearch" build_ee libtiff -Dtiff-tools=OFF -Dtiff-tests=OFF
 
 # gsKit is mandatory for SDL
-build_ee gsKit
+"${MAKECMD}" -C gsKit || { exit 1; }
+"${MAKECMD}" -C gsKit install || { exit 1; }"${MAKECMD}" -C gsKit install || { exit 1; }
 build_ee SDL -DCMAKE_POSITION_INDEPENDENT_CODE=OFF -DSDL_TESTS=OFF
 build_ee SDL_mixer -DCMAKE_POSITION_INDEPENDENT_CODE=OFF -DSDL2MIXER_DEPS_SHARED=OFF -DSDL2MIXER_MOD_MODPLUG=ON -DSDL2MIXER_MIDI=OFF -DSDL2MIXER_FLAC=OFF -DSDL2MIXER_SAMPLES=OFF
 build_ee SDL_image -DCMAKE_POSITION_INDEPENDENT_CODE=OFF
