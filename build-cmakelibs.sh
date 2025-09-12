@@ -73,7 +73,7 @@ $FETCH v5.4.0 https://github.com/xz-mirror/xz.git &
 $FETCH v1.10.0 https://github.com/lz4/lz4.git &
 $FETCH v1.11.3 https://github.com/nih-at/libzip.git &
 $FETCH 2.18.0 https://github.com/ImageOptim/libimagequant.git &
-$FETCH v1.6.47 https://github.com/pnggroup/libpng.git &
+$FETCH v1.6.37 https://github.com/pnggroup/libpng.git &
 $FETCH VER-2-13-3 https://github.com/freetype/freetype.git &
 $FETCH v1.16.0 https://github.com/google/googletest.git &
 $FETCH 0.2.5 https://github.com/yaml/libyaml.git &
