@@ -108,7 +108,7 @@ $FETCH release-2.6.3 https://github.com/libsdl-org/SDL_mixer.git &
 $FETCH release-2.8.4 https://github.com/libsdl-org/SDL_image.git &
 $FETCH release-2.24.0 https://github.com/libsdl-org/SDL_ttf.git &
 
-$FETCH 6.2 https://github.com/362053534/libsmb2.git &
+$FETCH 77626879fb75d23ddc9f95f6fad62d8b4a4f1cbc https://github.com/362053534/libsmb2.git &
 
 # We need to clone the whole repo and point to the specific hash for now,
 # till a new version is released after this commit
